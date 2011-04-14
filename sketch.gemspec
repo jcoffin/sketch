@@ -22,5 +22,5 @@ Gem::Specification.new do |s|
 
   s.add_development_dependency("shotgun", ">= 0.9")
   s.add_development_dependency("minitest", ">= 2.1")
-  s.add_development_dependency("rack-test", ">= 0.5")
+  s.add_development_dependency("capybara", ">= 0.4.1")
 end
