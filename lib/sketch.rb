@@ -1,3 +1,9 @@
+require 'sinatra/base'
+
 module Sketch
-  # Your code goes here...
+  class App < Sinatra::Base
+    get "/" do
+      "Hello World!"
+    end
+  end
 end
