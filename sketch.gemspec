@@ -19,8 +19,13 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   s.add_dependency("sinatra", "~> 1.2")
+  s.add_dependency("mongoid", "~> 2.0")
+  s.add_dependency("bson_ext", "~> 1.3")
+  s.add_dependency("haml", "~> 3.0")
 
   s.add_development_dependency("shotgun", ">= 0.9")
   s.add_development_dependency("minitest", ">= 2.1")
   s.add_development_dependency("capybara", ">= 0.4.1")
+  s.add_development_dependency("factory_girl", "~> 1.3")
+  s.add_development_dependency("database_cleaner", ">= 0.6.6")
 end
